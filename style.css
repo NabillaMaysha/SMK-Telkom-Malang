@@ -1,0 +1,606 @@
+body{
+  padding: 0;
+}
+div.menu{
+  width: 100%;
+  background-color: #a30023;
+}
+
+div.menu ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+div.menu ul li{
+  float: right;
+}
+div.menu ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  display: block;
+  margin: 0;
+  padding: 10px 15px;
+  text-align: center;
+  letter-spacing: 2px;
+}
+div.menu ul li a:hover{
+  border-bottom: 2px solid #fff;
+}
+div.menu img{
+  width: 150px;
+  height: auto;
+}
+
+div.header{
+  width: 100%;
+  height: 500px;
+  background: url("hero.jpg") no-repeat center;
+  background-size: cover;
+}
+
+div.gelap{
+  width: 100%;
+  height: 500px;
+  margin: 0;
+  padding: 0;
+  background: #000;
+  opacity: 0.8;
+}
+
+div.header h1{
+  position: absolute;
+  color: #fff;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bolder;
+  top: 100px; /* untuk mengatur jarak dari atas*/
+  left: 400px; /* untuk mengatur jarak dari kiri*/
+}
+
+div.header h1 label{
+  font-size: 30px;
+}
+
+div.header h1 span{
+  padding: 10px;
+  border: 2px solid #fff;
+  border-radius: 30px;
+  font-size: 15px;
+}
+
+div.header h1 img{
+  width: 100px;
+  height: auto;
+}
+
+div.about{
+  width: 100%;
+  height: 400px;
+}
+
+div.about .left{
+  width: 50%;
+  height: 100%;
+  text-align: right;
+  float: left;
+}
+
+div.about .left h1{
+  text-align: right;
+  font-size: 70px;
+  font-family: sans-serif;
+  font-weight: 15;
+  text-transform: uppercase;
+  border-right: 5px solid red;
+  padding-right: 20px;
+}
+
+div.about .left p{
+  text-align: right;
+  color: grey;
+  font-size: 30px;
+}
+
+div.about .right{
+  width: 50%;
+  height: 400px;
+  float: right;
+}
+
+div.about .right img{
+  width: 400px;
+  height: auto;
+  border: 10px solid #000;
+  border-radius: 20px;
+  margin-top: 100px;
+  margin-left: 100px;
+}
+
+div.layanan{
+  width: 100%;
+  height: 400px;
+  float: left;
+  margin-top: 150px;
+}
+
+div.layanan div.box{
+  width: 20%;
+  height: 350px;
+  margin: 20px;
+  float: left;
+}
+
+div.layanan div.box div.bunder{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #d4251c;
+  margin: 0 auto;
+  display: flex;
+}
+
+div.bunder span{
+  margin: auto;
+  font-size: 50px;
+  color: #fff;
+  text-align: center;
+  vertical-align: middle;
+}
+
+div.box .deskripsi{
+  color: grey;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+div.penghargaan{
+  width: 100%;
+  height: 500px;
+  float: left;
+  background: url(parallax1.jpg) no-repeat center;
+  background-size: cover;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+div.gelap{
+  width: 100%;
+  height: 100%;
+  float: left;
+  background: linear-gradient(to right, #000, #000, #000, tranparent);
+}
+
+div.penghargaan div.left{
+  width: 50%;
+  margin-top: 200px;
+  position: absolute;
+  text-align: right;
+  color: #fff;
+  border-right: 10px solid red;
+  padding-right: 20px;
+  float: left;
+}
+
+div.penghargaan .left h1{
+  margin: 2px;
+  font-size: 40px;
+  text-transform: uppercase;
+  font-family: sans-serif;
+}
+
+div.penghargaan div.left h2{
+  margin: 2px;
+  font-size: 30px;
+  font-family: sans-serif;
+  color: grey;
+}
+
+div.penghargaan div.left h3{
+  margin: 2px;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: 10;
+}
+
+div.studi{
+  width: 100%;
+  height: 500px;
+  float: left;
+  margin-top: 40px;
+  background: linear-gradient(white 300px, red 200px);
+}
+
+div.studi div.wisuda{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #d4251c;
+  margin: 0 auto;
+  display: flex;
+}
+
+div.wisuda span{
+  margin: auto;
+  font-size: 50px;
+  color: #fff;
+  text-align: center;
+  vertical-align: middle;
+}
+
+div.studi div.desc{
+  color: black;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+div.studi div.deskrip{
+  color: grey;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+div.prodi{
+  width: 50%;
+  height: 500px;
+  margin-bottom: 50px;
+  float: left;
+}
+
+div.studi .prodi h5{
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  margin: 0;
+}
+
+div.studi .prodi h6{
+  margin: 2px;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+}
+
+div.studi .prodi img{
+  width: 300px;
+  height: auto;
+}
+
+div.prestasi{
+  width: 100%;
+  height: 400px;
+  background: linear-gradient(white 320px,#d4251c 80px);
+  float: left;
+}
+
+div.prestasi .kami{
+  width: 40%;
+  height: 100%;
+  text-align: right;
+  float: left;
+  padding-left: 50px;
+}
+
+div.prestasi .kami h1{
+  text-align: left;
+  font-size: 40px;
+  font-family: sans-serif;
+  font-weight: 15;
+  text-transform: uppercase;
+  border-left: 5px solid red;
+  padding-left: 20px;
+}
+
+div.prestasi .kami p{
+  text-align: left;
+  color: grey;
+  font-size: 25px;
+}
+
+div.prestasi .gambar{
+  width: 50%;
+  height: 400px;
+  float: right;
+}
+
+div.prestasi .gambar img{
+  width: 400px;
+  height: auto;
+  border: 10px solid #000;
+  border-radius: 20px;
+  margin-top: 100px;
+  margin-left: 100px;
+}
+
+div.prestasi .kami h6{
+  top: 23px;
+  font-size: 30px;
+  color: white;
+  text-align: left;
+  position: relative;
+}
+
+div.info{
+  width: 100%;
+  height: 200px;
+  float: left;
+  margin-top: 40px;
+  background: white;
+}
+
+div.info div.terbaru{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #d4251c;
+  margin: 0 auto;
+  display: flex;
+}
+
+div.terbaru span{
+  margin: auto;
+  font-size: 60px;
+  color: #fff;
+  text-align: center;
+  vertical-align: middle;
+}
+
+div.info .deskrip{
+  color: black;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+div.info .desc{
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+div.date{
+  margin-top: 50px;
+  width: 100%;
+  height: 250px;
+  background: #d4251c;
+  position: relative;
+}
+
+div.date .centang{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #d4251c;
+  display: flex;
+  position: absolute;
+  left: 40px;
+  top: -50px;
+}
+
+div.date .centang span{
+  color: #fff;
+  margin: auto;
+  font-size: 40px;
+}
+
+div.date .left{
+  width: 50%;
+  height: 100%;
+  text-align: right;
+  float: left;
+  color: #fff;
+}
+
+div.date .right{
+  width: 50%;
+  float: right;
+  text-align: center;
+}
+
+div.right .icon:link{
+  width: 70px;
+  height: 70px;
+  background: #fff;
+  display: inline-block;
+  border-radius: 50%;
+  font-size: 40px;
+  color: #d4251c;
+  line-height: 70px;
+  margin: 120px 20px 0;
+}
+
+div.date .left h1{
+  text-align: right;
+  text-transform: uppercase;
+  margin: 100px 0 0 0;
+}
+
+.orange{
+  color: #d4251c;
+}
+
+hr.garis-melintang{
+  margin-top: 50px;
+  height: 3px;
+  background: #d4251c;
+  width: 70%;
+  display: inline-block;
+}
+
+hr.garis-melintang::before.
+hr.garis-melintang::after{
+  content: " ";
+  display: inline-block;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #d4251c;
+  left: 14%;
+  margin-top: -8px;
+}
+
+hr.garis-melintang::after{
+  left: 85%;
+}
+
+.testimoni{
+  margin-top: 60px;
+  background: url("parallax2.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+  color: #FFF;
+  text-align: center;
+  z-index: 1;
+}
+
+.konten{
+  z-index: 3;
+  position: absolute;
+}
+
+.overlay{
+  width: 100%;
+  height: 500px;
+  background: #00000095;
+  left: 0;
+  position: absolute;
+  z-index: 2;
+}
+
+.testimoni h1{
+  margin: 10px 0 10px;
+}
+
+.testimoni h2{
+  margin: 0;
+  font-size: 16px;
+  font-weight: normal;
+  color: #CCC;
+}
+
+.testimoni h3{
+  margin: 0 0 10px;
+}
+
+.testimoni h4{
+  margin: 0;
+  font-size: 14;
+  font-weight: normal;
+  color: #CCC;
+}
+
+.testimoni p{
+  margin: 0;
+  color: #EEE;
+  font-size: 20px;
+  width: 70%;
+  margin: 30px auto 0;
+  line-height: 1.5;
+}
+
+.testimoni img{
+  border-radius: 50%;
+  margin: 20px 0;
+}
+
+.konten-dukungan{
+  text-align: center;
+  margin-top: 50px;
+}
+
+.konten-dukungan img{
+  width: 150px;
+  display: inline-block;
+  margin: 0 40px 30px;
+}
+
+.footer{
+  margin-top: 40px;
+  background-color: #222;
+  width: 100%;
+  height: 350px;
+  color: #FFF;
+}
+
+.footer .left{
+  width: 50%;
+  float: left;
+  padding-left: 10%;
+  padding-top: 40px;
+  box-sizing: border-box;
+}
+
+.footer .left small{
+  display: block;
+  width: 300px;
+  margin-top: 20px;
+  color: #AAA;
+}
+
+.footer .left h3{
+  margin-top: 30px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.footer .left i{
+  font-size: 22px;
+  margin-right: 10px;
+  color: #CCC;
+}
+
+.footer .right{
+  width: 50%;
+  float: right;
+  padding-right: 10%;
+  padding-top: 40px;
+  box-sizing: border-box;
+}
+
+.footer .right h3{
+  margin-top: 0;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.footer .right ul{
+  margin: 0;
+  padding: 0;
+}
+
+.footer .right li{
+  list-style: none;
+  font-size: 18px;
+  color: #DDD;
+  margin-bottom: 10px;
+}
+
+.footer .right li i{
+  margin-right: 10px;
+}
+
+.bawah{
+  height: 50px;
+  background: #111;
+  color: #333;
+  line-height: 50px;
+}
+
+.bawah .left{
+  float: left;
+  left: 10%;
+  position: absolute;
+}
+
+.bawah .right{
+  float: left;
+  right: 10%;
+  position: absolute;
+}
